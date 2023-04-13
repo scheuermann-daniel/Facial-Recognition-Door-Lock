@@ -4,9 +4,11 @@
 ---
 
 ## Summary
-This program is the code portion for a facial recognition door lock. Since we cannot modify the dorm doors in any way, I decided to make it extra-portable by making it based on the handle. Meaning, you could likely use this on any door with the same handle and carry it around.
+This is the code portion for a facial recognition door lock. The program is written using C++, Python, and Bash scripts.
 
-To use, attach a camera to the peephole of the door and when it detects the specified people in front, it will turn a motor to pull the door and send an email alert to the specified email receiver.
+Since we cannot modify the dorm doors in any way, I decided to make it extra-portable by making it based on the handle. Meaning, you could likely use this on any door with the same handle and carry it around.
+
+To use, attach a camera to the peephole of the door and the motor to the handle. When it detects the specified people in front, it will turn a motor to pull the door handle and send an email alert to the specified email receiver.
 
 ---
 
