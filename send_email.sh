@@ -1,0 +1,1 @@
+curl --url 'smtps://smtp.gmail.com:465' --ssl-reqd   --mail-from 'guardofthegate.ds@gmail.com'   --mail-rcpt 'danpscheuermann@gmail.com'   --user 'guardofthegate.ds@gmail.com:ykszqkemdsmwwsej'   -T <(echo -e 'From: guardofthegate.ds@gmail.com\nTo: danpscheuermann@gmail.com\nSubject: Alert!\n\n Someone has entered your room.')
